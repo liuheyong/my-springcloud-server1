@@ -1,0 +1,8 @@
+#日志
+log:
+  name: server1
+  base: /Users/wenyixicodedog/cloud_log_file
+logging:
+  config: classpath:logback-spring.xml
+
+logging.level.org.springframework.boot.autoconfigure: ERROR
